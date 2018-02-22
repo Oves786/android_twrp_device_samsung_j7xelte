@@ -16,12 +16,14 @@ git clone https://github.com/omnirom/android_bootable_recovery -b android-8.1 bo
 
 Syncing Twrp Device Trees
 
-.repo/local_manifests/j7xelte.xml :
+Add to `.repo/local_manifests/j7xelte.xml`:
 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <project name="oves786/android_twrp_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="github" revision="android-6.0" />
 </manifest>
+```
  
 repo sync
 
